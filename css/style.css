@@ -184,6 +184,23 @@ a:hover {
   bottom: -12px;
 }
 
+.title-center {
+  font-size: 2rem;
+  color:#ffffff;
+  position: relative;
+  text-align: center; /* 텍스트 중앙 정렬을 위해 추가 */
+}
+
+.title-center:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #ffffff;
+  width: 200px;
+  bottom: -12px;
+}
+
+
 /*------/ Box /------*/
 
 .box-pl2 {
