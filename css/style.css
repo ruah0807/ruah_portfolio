@@ -96,6 +96,9 @@ a:hover {
 .overlay-mf {
   background-color: #704264;
 }
+.overlay-mf-greentouch {
+  background-color: #ece3ce;
+}
 
 .overlay-mf {
   position: absolute;
@@ -520,6 +523,21 @@ a:hover {
   padding-bottom: 15px;
 }
 
+.navbar-b.navbar-trans .nav-link-greentouch:before {
+  background-color: #000000;
+}
+
+.navbar-b.navbar-trans .nav-link-greentouch:hover {
+  color: #000000;
+}
+
+.navbar-b.navbar-trans .show > .nav-link-greentouch,
+.navbar-b.navbar-trans .active > .nav-link-greentouch,
+.navbar-b.navbar-trans .nav-link-greentouch.show,
+.navbar-b.navbar-trans .nav-link-greentouch.active {
+  color: #000000;
+}
+
 .navbar-b.navbar-reduce .nav-link {
   color: #704264;
 }
@@ -549,6 +567,11 @@ a:hover {
 
 .navbar-b .navbar-brand {
   color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.navbar-b .navbar-brand-greentouch {
+  color: #000000;
   font-size: 1.6rem;
   font-weight: 600;
 }
